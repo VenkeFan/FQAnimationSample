@@ -11,6 +11,7 @@
 #import "FQ3DScrollViewController.h"
 #import "FQWaveViewController.h"
 #import "FQRollerCoasterViewController.h"
+#import "FQDynamicAnimatorController.h"
 
 
 #define DataDictionaryNameKey       @"name"
@@ -88,6 +89,9 @@
         [_dataArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                                [FQRollerCoasterViewController class], DataDictionaryClassKey,
                                @"过山车动画", DataDictionaryNameKey, nil]];
+        [_dataArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                               [FQDynamicAnimatorController class], DataDictionaryClassKey,
+                               @"DynamicAnimator", DataDictionaryNameKey, nil]];
     }
     return _dataArray;
 }

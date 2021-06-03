@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92152262668E3F900E84525 /* FQDynamicAnimatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92152252668E3F900E84525 /* FQDynamicAnimatorController.m */; };
+		B921522C2668E41100E84525 /* FQDynamicAnimatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B921522B2668E41100E84525 /* FQDynamicAnimatorView.m */; };
 		B9B580FF1F00B20B00E86724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B580FE1F00B20B00E86724 /* main.m */; };
 		B9B581021F00B20B00E86724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B581011F00B20B00E86724 /* AppDelegate.m */; };
 		B9B581051F00B20B00E86724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B581041F00B20B00E86724 /* ViewController.m */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B92152242668E3F900E84525 /* FQDynamicAnimatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQDynamicAnimatorController.h; sourceTree = "<group>"; };
+		B92152252668E3F900E84525 /* FQDynamicAnimatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDynamicAnimatorController.m; sourceTree = "<group>"; };
+		B921522A2668E41100E84525 /* FQDynamicAnimatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQDynamicAnimatorView.h; sourceTree = "<group>"; };
+		B921522B2668E41100E84525 /* FQDynamicAnimatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDynamicAnimatorView.m; sourceTree = "<group>"; };
 		B9B580FA1F00B20B00E86724 /* FQAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B580FE1F00B20B00E86724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9B581001F00B20B00E86724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 				B9B581351F00B2E000E86724 /* FQWaveViewController.m */,
 				B9B581321F00B2E000E86724 /* FQRollerCoasterViewController.h */,
 				B9B581331F00B2E000E86724 /* FQRollerCoasterViewController.m */,
+				B92152242668E3F900E84525 /* FQDynamicAnimatorController.h */,
+				B92152252668E3F900E84525 /* FQDynamicAnimatorController.m */,
 				B9B581361F00B2E000E86724 /* Views */,
 				B9B581001F00B20B00E86724 /* AppDelegate.h */,
 				B9B581011F00B20B00E86724 /* AppDelegate.m */,
@@ -174,6 +182,8 @@
 				B9B5813C1F00B2E000E86724 /* FQWaveView.m */,
 				B9B581391F00B2E000E86724 /* FQRollerCoasterView.h */,
 				B9B5813A1F00B2E000E86724 /* FQRollerCoasterView.m */,
+				B921522A2668E41100E84525 /* FQDynamicAnimatorView.h */,
+				B921522B2668E41100E84525 /* FQDynamicAnimatorView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +277,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,7 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9B5813E1F00B2E000E86724 /* FQRollerCoasterViewController.m in Sources */,
+				B92152262668E3F900E84525 /* FQDynamicAnimatorController.m in Sources */,
 				B9B581051F00B20B00E86724 /* ViewController.m in Sources */,
+				B921522C2668E41100E84525 /* FQDynamicAnimatorView.m in Sources */,
 				B9B5813D1F00B2E000E86724 /* FQ3DScrollViewController.m in Sources */,
 				B9B581421F00B2E000E86724 /* FQWaveView.m in Sources */,
 				B9B581411F00B2E000E86724 /* FQRollerCoasterView.m in Sources */,
