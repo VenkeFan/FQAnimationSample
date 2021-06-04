@@ -72,10 +72,6 @@
     }
 }
 
-#pragma mark - Private
-
-
-
 #pragma mark - Getter
 
 - (UIView *)canView {

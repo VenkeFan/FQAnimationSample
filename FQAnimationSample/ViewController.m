@@ -12,7 +12,7 @@
 #import "FQWaveViewController.h"
 #import "FQRollerCoasterViewController.h"
 #import "FQDynamicAnimatorController.h"
-
+#import "FQChipmunkViewController.h"
 
 #define DataDictionaryNameKey       @"name"
 #define DataDictionaryClassKey      @"class"
@@ -92,6 +92,9 @@
         [_dataArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                                [FQDynamicAnimatorController class], DataDictionaryClassKey,
                                @"DynamicAnimator", DataDictionaryNameKey, nil]];
+        [_dataArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:
+                               [FQChipmunkViewController class], DataDictionaryClassKey,
+                               @"chipmunk", DataDictionaryNameKey, nil]];
     }
     return _dataArray;
 }
