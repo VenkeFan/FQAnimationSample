@@ -33,6 +33,10 @@
     return self;
 }
 
+- (void)dealloc {
+    cpSpaceFree(_space);
+}
+
 - (void)setupSubviews {
     [self addSubview:self.canView];
     self.canView.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
@@ -47,8 +51,6 @@
 - (void)stopMotion {
     [_displayLink invalidate];
     _displayLink = nil;
-    
-    cpSpaceFree(_space);
 }
 
 #pragma mark - TestCode
